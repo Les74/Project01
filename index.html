@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="mycss.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Galada&display=swap"
+            rel="stylesheet"
+        />
+        <title>Project01</title>
+    </head>
+    <body class="body-1" id="top">
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <img class="logo" src="images/ikon.png" alt="pic-stock" />
+        <img class="main-pic" src="images/city-planet.jpg" alt="" />
+
+        <main class="first-page-title">
+            <h1>Background</h1>
+            <h2>Images</h2>
+            <h3>Free download...</h3>
+        </main>
+
+        <h3 id="contact" class="contact">Contact</h3>
+        <form
+            class="form-class"
+            action="https://formspree.io/xaypozwy"
+            method="post"
+        >
+            <label>
+                Your Name:
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Full name"
+                    required
+                />
+            </label>
+            <label>
+                Your Email:
+                <input
+                    name="email"
+                    type="email"
+                    placeholder="Your email"
+                    required
+                />
+            </label>
+
+            <label>
+                Your Message:
+                <textarea
+                    name="message"
+                    placeholder="Message"
+                    required
+                ></textarea>
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+
+        <div class="social-ikon">
+            <a href="#">
+                <img src="images/twit.png" alt="twitter-ikon" />
+            </a>
+            <a href="#">
+                <img src="images/face.png" alt="facebook-ikon" />
+            </a>
+            <a href="#">
+                <img src="images/insta1.png" alt="instagram-ikon" />
+            </a>
+            <a href="#">
+                <img src="images/linkein.png" alt="linkedin-ikon" />
+            </a>
+        </div>
+
+        <a href="#top">
+            <img class="top-ikon" src="images/top.png" alt="" />
+        </a>
+
+        <footer>
+            © Laszlo Borsos 2020
+        </footer>
+    </body>
+</html>
