@@ -1,0 +1,360 @@
+.body-1 {
+    background-color: #242582;
+
+    /*#242582;#99738e;#2f2f2a2;#252482;#553d67*/
+}
+.body-2 {
+    background-image: linear-gradient(#252482, #99738e);
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-color: #242582;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "Do Hyeon", sans-serif;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5%;
+    margin-top: 10px;
+    padding: 3px;
+}
+.nav-menu a:nth-of-type(1) {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-menu a:nth-of-type(2):hover,
+.nav-menu a:nth-of-type(3):hover {
+    background-color: #99738e;
+    color: #2f2fa2;
+}
+.main-pic {
+    position: fixed;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100%;
+    left: 0;
+}
+
+.form-class {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.form-class input[type="email"],
+input[type="text"],
+textarea {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border: none;
+    box-sizing: border-box;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #99738e;
+    color: white;
+    font-size: 15px;
+    height: 30px;
+    width: 280px;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.contact {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Do Hyeon", sans-serif;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.body-2 .nav-menu a:nth-of-type(1),
+.body-2 .nav-menu a:nth-of-type(3) {
+    color: white;
+}
+.body-2 .nav-menu a:nth-of-type(2) {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #99738e00;
+}
+.body-2 .nav-menu a:nth-of-type(1):hover,
+.body-2 .nav-menu a:nth-of-type(3):hover {
+    background-color: #99738e;
+    color: #2f2fa2;
+}
+
+.logo {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 130px;
+}
+
+.first-page-title {
+    font-family: "Rowdies", cursive;
+    color: white;
+}
+.first-page-title h1 {
+    position: absolute;
+
+    font-size: 40px;
+    top: 100px;
+    left: 10%;
+    color: rgba(255, 255, 255, 0);
+    animation-name: fade;
+    text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes fade {
+    0% {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+    }
+    50% {
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    }
+
+    100% {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+    }
+}
+.first-page-title h2 {
+    position: absolute;
+    left: 55%;
+    top: 150px;
+    font-size: 40px;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-name: fade2;
+    animation-iteration-count: infinite;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+}
+@keyframes fade2 {
+    0% {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+    }
+    50% {
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    }
+
+    100% {
+        color: rgba(255, 255, 255, 0);
+        text-shadow: rgba(0, 0, 0, 0) 5px 5px 5px;
+    }
+}
+.first-page-title h3 {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+    font-size: 25px;
+    left: 30vw;
+    top: 240px;
+    animation-delay: 2s;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    0% {
+        left: 30vw;
+    }
+    50% {
+        left: 40vw;
+    }
+
+    100% {
+        left: 30vw;
+    }
+}
+.first-page-title p {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.social-ikon {
+    margin-top: 80px;
+    text-align: center;
+}
+.social-ikon a {
+    text-decoration: none;
+}
+.social-ikon img {
+    padding: 5px;
+    width: 35px;
+    border: solid white 2px;
+    border-radius: 30%;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+.social-ikon img:hover {
+    border-color: #99738e;
+}
+footer {
+    color: white;
+    margin-top: 50px;
+    font-size: 15px;
+
+    background-color: #553d67;
+}
+footer p {
+    padding: 10px;
+}
+
+.top-ikon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+.container {
+    position: relative;
+    margin-bottom: 10px;
+}
+.container img {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 98%;
+    height: 97%;
+}
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+}
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    background-color: #262482b9;
+    border-radius: 5px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 48%;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+
+    .flex-container {
+        justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .main-pic {
+        position: fixed;
+        opacity: 0.5;
+        z-index: -1;
+        top: 80px;
+        left: 0;
+        width: 100%;
+    }
+    .first-page-title h1 {
+        font-size: 100px;
+        top: 50px;
+        left: 10%;
+    }
+    .first-page-title h2 {
+        font-size: 100px;
+        top: 150px;
+        left: 50%;
+    }
+    .first-page-title h3 {
+        font-size: 50px;
+        top: 400px;
+    }
+    .first-page-title p {
+        margin-top: 700px;
+        font-size: 30px;
+    }
+
+    .logo {
+        position: fixed;
+        z-index: 2;
+        left: 30px;
+        top: -40px;
+        width: 200px;
+    }
+    .nav-menu a {
+        margin: 2%;
+        font-size: 25px;
+        font-family: "Do Hyeon", sans-serif;
+    }
+    .nav-menu {
+        text-align: right;
+    }
+    .social-ikon {
+        margin-top: -10px;
+    }
+    .form-class {
+        width: 50%;
+    }
+    input[type="submit"] {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .main-pic {
+        position: absolute;
+    }
+    .contact {
+        margin-top: 300px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        width: 32%;
+    }
+}
